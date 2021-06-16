@@ -1,0 +1,120 @@
+body {
+    /*from google font and fallbacks*/
+    font-family: 'Robot', 'Manjari', Calibri, 'Halvetica Neue', Halvetica, Arial, sans-serif;
+    /*    increase default font size by 1px*/
+    font-size: 17px;
+    color: #5c5f60;
+    /*  remove default space around the window*/
+    margin: 0;
+    background-color: #333636;
+}
+
+p {
+    /*    set line spacing for paragraph*/
+    line-height: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+    color: #c356cc;
+    font-weight: normal;
+}
+
+h1 {
+    /*    heading size is bydefault 2 time bigger than font size*/
+    font-size: 2.5em;
+    text-transform: capitalize;
+    padding: 25px;
+    text-align: center;
+
+}
+
+/*this style make sure that image size dont get bigger than wrapper size */
+
+img {
+    max-width: 100%;
+    
+}
+
+.eventdetails {
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+
+.heightlight {
+    background-color: lightblue;
+}
+
+/*code for footer*/
+footer {
+    background-color: #333636;
+    color: white;
+    padding: 22px;
+    text-align:left;
+    font-size: 1em;
+
+}
+
+.wrapper {
+    /*    restrict page width*/
+    max-width: 960px;
+    /*    center the layout*/
+    margin-left: auto;
+    margin-right: auto;
+    /*    set the background color*/
+    background-color: white;
+}
+
+/*apply space interior for main*/
+main {
+    padding: 25px;
+}
+
+nav {
+    padding: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*style for link*/
+a {
+    color: #a76a1a;
+    text-decoration: none;
+}
+
+/*style when user move mouse over link*/
+a:hover {
+    color: green;
+}
+
+/*when user click the link */
+a:active {
+    color: red;
+}
+
+.product {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: solid 1px red;
+}
+
+/*for buy button as button*/
+
+.btn {
+    background-color: rgba(158, 178, 185, 0.69);
+    /*    padding for rgt left top bottom*/
+    padding: 10px 15px;
+    display: inline-block;
+    color: royalblue;
+    /*    for round corner*/
+    border-radius: 12px;
+    /*    for animation*/
+    transition: 500ms;
+}
+
+/*when u put mouse over buy now buuton*/
+.btn:hover {
+    background-color: darkslategrey;
+}
